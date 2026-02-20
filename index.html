@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Event Manager</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h2>Smart Event DashBoard</h2>
+  <div class="container">
+    <div class="section">
+      <form>
+        <label for="title">Event Title:</label>
+        <input type="text" id="title">
+
+        <label for="date">Event Date:</label>
+        <input type="date" id="date">
+
+        <label for="category">Category:</label>
+        <select id="category">
+          <option>Conference</option>
+          <option>Workshop</option>
+          <option>Meetup</option>
+          <option>Entertainment</option>
+          <option>Academic</option>
+        </select>
+
+        <label for="desc">Description:</label>
+        <textarea id="desc"></textarea>
+
+        <button type="button">Add Event</button>
+      </form>
+    </div>
+
+    <div class="section">
+      <h3>My Events</h3>
+      <div class="events">
+        No events yet. Add your first event!
+      </div>
+      <button id="Btn1">Clear All Events</button>
+      <button id="Btn2">Add Sample Events</button>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
